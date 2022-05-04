@@ -3,29 +3,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto&display=swap');
 	
 body{
-	background: green;
+	background: #212932;
 }
 
 ul.menu li{
 	display: inline-block;
 	margin: 0 7%;
+
 	
 }
 ul.menu li a{
 	text-decoration: none;
 	color: white;
 	font-family: roboto;
+	font-size: 20px;
 
 
 }
 ul.menu li a:hover{
-	color: #9ab2d4;
+	color: red;
 
 }
 
 .menu{
 	padding-top: 17px;
 	margin-top: 17px;
+}
+
+.post img {
+	width: 100%;
+	height: 300px;
+	border-radius: 5px;
 }
 
 img.tit{
@@ -48,7 +56,7 @@ ul.pie li{
 
 
 header{
-	background: red;
+	background: #384b67	;
 	margin-bottom: 40px;
 }
 
@@ -62,8 +70,14 @@ h2{
 p{
 	color: #cdd4da;
 	font-family: open Sans;
+	text-align: left;
 }
 footer{
 	background: #c9cfd5;
 	
+}
+
+.autor{
+	text-align: right;
+	margin-top: 20px;
 }
