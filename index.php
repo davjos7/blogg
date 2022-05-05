@@ -23,4 +23,4 @@
          <?php } ?>
       </div>
       <center>
-         <?php get_footer(); ?>
+        	 <?php get_footer(); ?>
