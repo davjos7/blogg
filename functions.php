@@ -10,6 +10,13 @@ function codigo_inicial() {
 
  ]);
 
+	register_nav_menus([
+		'principal' => 'Zona principal'
+
+
+
+	]);
+
 
 }
 
